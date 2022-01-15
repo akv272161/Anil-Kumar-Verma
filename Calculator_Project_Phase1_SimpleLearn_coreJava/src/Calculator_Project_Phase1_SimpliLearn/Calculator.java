@@ -1,4 +1,4 @@
-package Phase1_PracticeProgram;
+package Calculator_Project_Phase1_SimpliLearn;
 
 import java.util.Scanner;
 
