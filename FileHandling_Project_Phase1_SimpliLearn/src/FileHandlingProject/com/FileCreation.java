@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 public class FileCreation {
 	public static void main(String[] args) {
-		File myFile = new File("data1.txt");
+		File myFile = new File("data111.txt");
 		
 		try {
 			if (myFile.createNewFile()) {
