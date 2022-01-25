@@ -3,7 +3,8 @@ package com.lockedme;
 public class MenuOptions {
 
 	public static void printWelcomeScreen(String appName, String developerName) {
-		String companyDetails = String.format("   Welcome to %s.com. \n" + "   Project Name: VirtualKey for your Repositories\n" +"   This application was developed by: %s.\n", appName, developerName);
+		String companyDetails = String.format("   Welcome to %s.com. \n" + "   Project Name: VirtualKey for your Repositories\n" 
+	                                               +"   This application was developed by: %s.\n", appName, developerName);
 		String appFunction = "You can use this application to :-\n"
 				+ "• Retrieve all file names in the \"main\" folder\n"
 				+ "• Search, add, or delete files in \"main\" folder.\n"
