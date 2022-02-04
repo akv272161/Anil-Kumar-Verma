@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Page</title>
+<style>
+.container {
+   width:40%;
+   border:2px solid black;
+   padding:40px;
+   margin:auto;
+   font-size:40px;
+   }
+   
+
+</style>
+</head>
+<body>
+     <div class ="container">
+          <h1 text align="center">My Form</h1>
+          <form action="RegisterServlet" method="post">
+          	<table>
+          	 <tr>
+          	 <td>Enter your name:</td>
+          	 <td><input type="text" name="user_name" placeholder="Enter here"/></td>
+          	</tr>
+          	<tr>
+          	<td>Enter your Password:</td>
+          	<td><input type="password" name="user_password" placeholder="Enter here"/></td>
+          	</tr>
+          	<tr>
+          	<td>Enter your email Id:</td>
+          	<td><input type="email" name="user_email" placeholder="Enter here"/></td>
+          	</tr>
+          	<tr>
+          	<td>Select Courses:</td>
+          	<td>
+          	<select name="user_courses">
+          	<option value="core java">core java</option>
+          	<option value="python">python</option>
+          	<option value="advance java">advance java</option>
+          	</select>
+          	</td>
+          	</tr>
+          	<tr>
+          	<td>Select Gender:</td>
+          	<td><input  type="radio" name="user_gender" value="Male">Male &nbsp &nbsp<input type="radio" name="user_gender" value="Female" >Female</td>
+          	</tr>
+          	
+          	<tr>
+          	<td text align="right"> <input type="checkbox" name="condition"/></td>
+          	<td>Accept term and condition</td>
+          	</tr>
+          
+          	
+          	<tr>
+          	<td>
+          	<button type="Submit">Submit</button>
+          	<button type="reset">Reset</button>
+          	</td>
+          	
+          	</tr>
+          	</table>
+         
+          </form>
+     </div>
+
+</body>
+</html>
